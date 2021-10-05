@@ -1,2 +1,11 @@
+### Editor Caches
 .idea
 .vscode
+
+### Targets
+room-web-app/target
+spring-boot-web-intro/target
+
+### Maven Caches
+room-web-app/.mvn
+spring-boot-web-intro/.mvn

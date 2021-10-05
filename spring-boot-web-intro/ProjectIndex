@@ -1,0 +1,4 @@
+Spring Boot hello world application = src/main/resources/static/index.html
+Server port configuration = src/main/resources/application.yaml
+Profile configuration = src/main/resources/application.yaml
+Docker Configuration = Dockerfile
