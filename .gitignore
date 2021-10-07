@@ -3,9 +3,13 @@
 .vscode
 
 ### Targets
-room-web-app/target
-spring-boot-web-intro/target
+src/room-web-app/target
+src/spring-boot-web-intro/target
+src/room-web-app-plus/target
+src/fizz-buzz-clr/target
 
 ### Maven Caches
-room-web-app/.mvn
-spring-boot-web-intro/.mvn
+src/room-web-app/.mvn
+src/spring-boot-web-intro/.mvn
+src/room-web-app-plus/.mvn
+src/fizz-buzz-clr/.mvn
