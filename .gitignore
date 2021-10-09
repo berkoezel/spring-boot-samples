@@ -3,13 +3,19 @@
 .vscode
 
 ### Targets
-src/room-web-app/target
 src/spring-boot-web-intro/target
-src/room-web-app-plus/target
 src/fizz-buzz-clr/target
+src/room-web-app/target
+src/room-web-app-v2/target
+src/room-web-app-v3/target
+src/room-web-app-v4/target
+src/room-cleaner-notifier/target
 
 ### Maven Caches
-src/room-web-app/.mvn
 src/spring-boot-web-intro/.mvn
-src/room-web-app-plus/.mvn
 src/fizz-buzz-clr/.mvn
+src/room-web-app/.mvn
+src/room-web-app-v2/.mvn
+src/room-web-app-v3/.mvn
+src/room-web-app-v4/.mvn
+src/room-cleaner-notifier/.mvn
