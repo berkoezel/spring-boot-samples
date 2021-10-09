@@ -1,4 +1,4 @@
-package com.frogwine.sbs.roomwebappv2;
+package com.frogwine.sbs.roomwebappv3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

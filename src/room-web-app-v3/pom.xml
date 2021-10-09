@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.frogwine.sbs</groupId>
-	<artifactId>room-web-app</artifactId>
+	<artifactId>room-web-app-v3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>room-web-app-v2</name>
+	<name>room-web-app-v3</name>
 	<description>Spring Boot + Thymeleaf Demo Project</description>
 	<properties>
 		<java.version>11</java.version>
@@ -30,6 +30,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 		</dependency>
 	</dependencies>
 

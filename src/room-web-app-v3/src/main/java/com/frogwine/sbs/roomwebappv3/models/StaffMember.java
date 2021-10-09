@@ -1,4 +1,4 @@
-package com.frogwine.sbs.roomwebappv2.models;
+package com.frogwine.sbs.roomwebappv3.models;
 
 public class StaffMember {
 

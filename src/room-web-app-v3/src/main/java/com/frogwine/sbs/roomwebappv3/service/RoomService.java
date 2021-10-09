@@ -1,23 +1,22 @@
-package com.frogwine.sbs.roomwebappv2.service;
+package com.frogwine.sbs.roomwebappv3.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.frogwine.sbs.roomwebappv2.models.Room;
+import com.frogwine.sbs.roomwebappv3.data.RoomRepository;
+import com.frogwine.sbs.roomwebappv3.models.Room;
 import org.springframework.stereotype.Service;
 
 @Service
 public class RoomService {
 
-    private static final List<Room> rooms = new ArrayList();
+    private final RoomRepository roomRepository;
 
-    static{
-        for(int i=0;i<10;i++){
-            rooms.add(new Room(i, "Room " + i, "R"+i, "Q"));
-        }
+    public RoomService(RoomRepository roomRepository) {
+        this.roomRepository = roomRepository;
     }
 
     public List<Room> getAllRooms(){
-        return rooms;
+        return roomRepository.findAll();
     }
 }

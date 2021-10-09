@@ -1,9 +1,9 @@
-package com.frogwine.sbs.roomwebappv2.controllers;
+package com.frogwine.sbs.roomwebappv3.controllers;
 
 import java.util.List;
 
-import com.frogwine.sbs.roomwebappv2.models.Room;
-import com.frogwine.sbs.roomwebappv2.service.RoomService;
+import com.frogwine.sbs.roomwebappv3.models.Room;
+import com.frogwine.sbs.roomwebappv3.service.RoomService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

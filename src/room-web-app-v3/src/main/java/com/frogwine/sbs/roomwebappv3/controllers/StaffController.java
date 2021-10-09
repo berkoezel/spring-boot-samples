@@ -1,7 +1,7 @@
-package com.frogwine.sbs.roomwebappv2.controllers;
+package com.frogwine.sbs.roomwebappv3.controllers;
 
 
-import com.frogwine.sbs.roomwebappv2.service.StaffService;
+import com.frogwine.sbs.roomwebappv3.service.StaffService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,12 +1,12 @@
-package com.frogwine.sbs.roomwebappv2.service;
+package com.frogwine.sbs.roomwebappv3.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
 
-import com.frogwine.sbs.roomwebappv2.models.Position;
-import com.frogwine.sbs.roomwebappv2.models.StaffMember;
+import com.frogwine.sbs.roomwebappv3.models.Position;
+import com.frogwine.sbs.roomwebappv3.models.StaffMember;
 import org.springframework.stereotype.Service;
 
 @Service

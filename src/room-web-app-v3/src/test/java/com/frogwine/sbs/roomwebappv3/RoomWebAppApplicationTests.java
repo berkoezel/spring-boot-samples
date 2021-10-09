@@ -1,4 +1,4 @@
-package com.frogwine.sbs.roomwebappv2;
+package com.frogwine.sbs.roomwebappv3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
